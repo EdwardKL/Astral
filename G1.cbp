@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Astral" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="external/OgreSDK_MinGW_v1-8-1/bin/debug/Astral" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="external/OgreSDK_MinGW_v1-8-1/bin/debug/" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="libOgreMain_d" />
+					<Add library="libOIS_d" />
+					<Add library="libboost_chrono-mgw47-mt-d-1_51" />
+					<Add library="libboost_date_time-mgw47-mt-d-1_51" />
+					<Add library="libboost_system-mgw47-mt-d-1_51" />
+					<Add library="libboost_thread-mgw47-mt-d-1_51" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="external/OgreSDK_MinGW_v1-8-1/bin/release/Astral" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="external/OgreSDK_MinGW_v1-8-1/bin/release" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libOgreMain" />
+					<Add library="libOIS" />
+					<Add library="libboost_chrono-mgw47-mt-1_51" />
+					<Add library="libboost_date_time-mgw47-mt-1_51" />
+					<Add library="libboost_system-mgw47-mt-1_51" />
+					<Add library="libboost_thread-mgw47-mt-1_51" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="OGRE_HOME" value="D:\Documents\Astral\external\OgreSDK_MinGW_v1-8-1" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-mthreads" />
+			<Add option="-fmessage-length=0" />
+			<Add option="-fident" />
+			<Add option="-DWIN32" />
+			<Add option="-D_WINDOWS" />
+			<Add directory="$(OGRE_HOME)/include" />
+			<Add directory="$(OGRE_HOME)/include/OGRE" />
+			<Add directory="$(OGRE_HOME)/include/OIS" />
+			<Add directory="$(OGRE_HOME)/boost" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,--enable-auto-image-base" />
+			<Add option="-Wl,--add-stdcall-alias" />
+			<Add option="-Wl,--enable-auto-import" />
+			<Add directory="$(OGRE_HOME)/bin/$(TARGET_NAME)" />
+			<Add directory="$(OGRE_HOME)/boost/lib" />
+		</Linker>
+		<Unit filename="BaseApplication.cpp" />
+		<Unit filename="BaseApplication.h" />
+		<Unit filename="TutorialApplication.cpp" />
+		<Unit filename="TutorialApplication.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

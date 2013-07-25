@@ -11,3 +11,5 @@
 *.lai
 *.la
 *.a
+
+external/OgreSDK_MinGW_v1-8-1/*
