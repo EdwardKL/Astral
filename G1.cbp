@@ -61,6 +61,8 @@
 			<Add directory="$(OGRE_HOME)/include/OGRE" />
 			<Add directory="$(OGRE_HOME)/include/OIS" />
 			<Add directory="$(OGRE_HOME)/boost" />
+			<Add directory="include" />
+			<Add directory="D:/Documents/Astral/" />
 		</Compiler>
 		<Linker>
 			<Add option="-Wl,--enable-auto-image-base" />
@@ -71,13 +73,31 @@
 		</Linker>
 		<Unit filename="BaseApplication.cpp" />
 		<Unit filename="BaseApplication.h" />
-		<Unit filename="TutorialApplication.cpp" />
-		<Unit filename="TutorialApplication.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="external/simplexnoise/simplexnoise.cpp" />
+		<Unit filename="external/simplexnoise/simplexnoise.h" />
+		<Unit filename="include/Chunk.h" />
+		<Unit filename="include/ChunkManager.h" />
+		<Unit filename="include/Configuration.h" />
+		<Unit filename="include/Landscape.h" />
+		<Unit filename="src/Chunk.cpp" />
+		<Unit filename="src/ChunkManager.cpp" />
+		<Unit filename="src/Landscape.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
 			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
