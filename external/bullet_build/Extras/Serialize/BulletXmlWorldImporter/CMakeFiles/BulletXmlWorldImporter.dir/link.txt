@@ -1,0 +1,2 @@
+D:\Programs\MinGW\bin\ar.exe cr libBulletXmlWorldImporter.a  CMakeFiles/BulletXmlWorldImporter.dir/btBulletXmlWorldImporter.obj CMakeFiles/BulletXmlWorldImporter.dir/string_split.obj CMakeFiles/BulletXmlWorldImporter.dir/tinyxml.obj CMakeFiles/BulletXmlWorldImporter.dir/tinystr.obj CMakeFiles/BulletXmlWorldImporter.dir/tinyxmlerror.obj CMakeFiles/BulletXmlWorldImporter.dir/tinyxmlparser.obj
+D:\Programs\MinGW\bin\ranlib.exe libBulletXmlWorldImporter.a

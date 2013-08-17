@@ -1,0 +1,2 @@
+D:\Programs\MinGW\bin\ar.exe cr libGIMPACTUtils.a  CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.obj
+D:\Programs\MinGW\bin\ranlib.exe libGIMPACTUtils.a

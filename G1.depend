@@ -6408,7 +6408,7 @@
 	"Ogre.h"
 	<limits>
 
-1374894141 source:d:\documents\astral\game.cpp
+1374913308 source:d:\documents\astral\game.cpp
 	"Game.h"
 	"ChunkManager.h"
 	"windows.h"
@@ -6423,18 +6423,22 @@
 
 1364413569 d:\documents\astral\external\simplexnoise\simplexnoise.h
 
-1374893130 source:d:\documents\astral\src\landscape.cpp
+1376358878 source:d:\documents\astral\src\landscape.cpp
 	"Landscape.h"
 	"Configuration.h"
 
-1374880518 d:\documents\astral\include\landscape.h
+1375296003 d:\documents\astral\include\landscape.h
 	"external/simplexnoise/simplexnoise.h"
 
 1364413569 d:\documents\astral\\external\simplexnoise\simplexnoise.h
 
-1374912940 d:\documents\astral\include\configuration.h
+1376441926 d:\documents\astral\include\configuration.h
 
-1374893216 d:\documents\astral\include\chunkmanager.h
+1376602326 d:\documents\astral\include\chunkmanager.h
+	<map>
+	"BulletCollision/CollisionShapes/btTriangleMesh.h"
+	"BulletCollision/CollisionShapes/btShapeHull.h"
+	"BulletDynamics/Dynamics/btRigidBody.h"
 	"Configuration.h"
 	"Landscape.h"
 	"Game.h"
@@ -6444,7 +6448,7 @@
 
 1374890957 d:\documents\astral\include\chunk.h
 
-1374893253 d:\documents\astral\\game.h
+1374950600 d:\documents\astral\\game.h
 	"BaseApplication.h"
 	"Landscape.h"
 
@@ -6464,6 +6468,1287 @@
 	<SdkTrays.h>
 	<SdkCameraMan.h>
 
-1374912677 source:d:\documents\astral\src\chunkmanager.cpp
+1376602571 source:d:\documents\astral\src\chunkmanager.cpp
 	"ChunkManager.h"
+	<time.h>
+
+1376602530 d:\documents\astral\include\game.h
+	<CEGUIImageset.h>
+	<CEGUIFont.h>
+	<CEGUISystem.h>
+	<CEGUISchemeManager.h>
+	<CEGUIWindowManager.h>
+	<falagard/CEGUIFalWidgetLookManager.h>
+	<RendererModules/Ogre/CEGUIOgreRenderer.h>
+	"BulletDynamics/Dynamics/btRigidBody.h"
+	"BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
+	"btBulletDynamicsCommon.h"
+	"DebugDraw.hpp"
+	"Utils/OgreBulletConverter.h"
+	"BaseApplication.h"
+	"Landscape.h"
+
+1375495916 d:\documents\astral\include\baseapplication.h
+	<OgreCamera.h>
+	<OgreEntity.h>
+	<OgreLogManager.h>
+	<OgreRoot.h>
+	<OgreViewport.h>
+	<OgreSceneManager.h>
+	<OgreRenderWindow.h>
+	<OgreConfigFile.h>
+	<OISEvents.h>
+	<OISInputManager.h>
+	<OISKeyboard.h>
+	<OISMouse.h>
+	<SdkTrays.h>
+	<SdkCameraMan.h>
+
+1375495971 source:d:\documents\astral\src\baseapplication.cpp
+	"BaseApplication.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\ogrebulletcollisionsworld.h
+	"OgreBulletCollisionsPreRequisites.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\ogrebulletcollisionsprerequisites.h
+	"btBulletCollisionCommon.h"
+	"BulletCollision/Gimpact/btGImpactShape.h"
+	"BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h"
+	"Ogre.h"
+
+1343755072 d:\documents\astral\external\bullet-2.81-rev2613\src\btbulletcollisioncommon.h
+	"BulletCollision/CollisionDispatch/btCollisionWorld.h"
+	"BulletCollision/CollisionDispatch/btCollisionObject.h"
+	"BulletCollision/CollisionShapes/btBoxShape.h"
+	"BulletCollision/CollisionShapes/btSphereShape.h"
+	"BulletCollision/CollisionShapes/btCapsuleShape.h"
+	"BulletCollision/CollisionShapes/btCylinderShape.h"
+	"BulletCollision/CollisionShapes/btConeShape.h"
+	"BulletCollision/CollisionShapes/btStaticPlaneShape.h"
+	"BulletCollision/CollisionShapes/btConvexHullShape.h"
+	"BulletCollision/CollisionShapes/btTriangleMesh.h"
+	"BulletCollision/CollisionShapes/btConvexTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h"
+	"BulletCollision/CollisionShapes/btCompoundShape.h"
+	"BulletCollision/CollisionShapes/btTetrahedronShape.h"
+	"BulletCollision/CollisionShapes/btEmptyShape.h"
+	"BulletCollision/CollisionShapes/btMultiSphereShape.h"
+	"BulletCollision/CollisionShapes/btUniformScalingShape.h"
+	"BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h"
+	"BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.h"
+	"BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
+	"BulletCollision/BroadphaseCollision/btSimpleBroadphase.h"
+	"BulletCollision/BroadphaseCollision/btAxisSweep3.h"
+	"BulletCollision/BroadphaseCollision/btMultiSapBroadphase.h"
+	"BulletCollision/BroadphaseCollision/btDbvtBroadphase.h"
+	"LinearMath/btQuaternion.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btDefaultMotionState.h"
+	"LinearMath/btQuickprof.h"
+	"LinearMath/btIDebugDraw.h"
+	"LinearMath/btSerializer.h"
+
+1347491946 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btcollisionworld.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"btCollisionObject.h"
+	"btCollisionDispatcher.h"
+	"BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1347897828 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btvector3.h
+	"btScalar.h"
+	"btMinMax.h"
+	"btAlignedAllocator.h"
+
+1347335392 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btscalar.h
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<ppcintrinsics.h>
+	<emmintrin.h>
+	<stdio.h>
+	<assert.h>
+	<assert.h>
+	<spu_printf.h>
+	<assert.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<assert.h>
+	<stdio.h>
+	<assert.h>
+	<arm_neon.h>
+
+1323712600 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btminmax.h
+	"btScalar.h"
+
+1235001124 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btalignedallocator.h
+	"btScalar.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\bttransform.h
+	"btMatrix3x3.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btmatrix3x3.h
+	"btVector3.h"
+	"btQuaternion.h"
+	<stdio.h>
+
+1346608472 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btquaternion.h
+	"btVector3.h"
+	"btQuadWord.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btquadword.h
+	"btScalar.h"
+	"btMinMax.h"
+	<altivec.h>
+
+1348270646 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btcollisionobject.h
+	"LinearMath/btTransform.h"
+	"LinearMath/btMotionState.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1235001124 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btmotionstate.h
+	"btTransform.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btalignedobjectarray.h
+	"btScalar.h"
+	"btAlignedAllocator.h"
+	<memory.h>
+	<string.h>
+	<new>
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btcollisiondispatcher.h
+	"BulletCollision/BroadphaseCollision/btDispatcher.h"
+	"BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+	"BulletCollision/CollisionDispatch/btManifoldResult.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btCollisionCreateFunc.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btdispatcher.h
+	"LinearMath/btScalar.h"
+
+1347324972 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\narrowphasecollision\btpersistentmanifold.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"btManifoldPoint.h"
+	"LinearMath/btAlignedAllocator.h"
+
+1347691938 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\narrowphasecollision\btmanifoldpoint.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransformUtil.h"
+	"physics_effects/base_level/solver/pfx_constraint_row.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\bttransformutil.h
+	"btTransform.h"
+
+1349471712 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btmanifoldresult.h
+	"BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+	"BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h"
+	"LinearMath/btTransform.h"
+	"BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
+	"BulletCollision/CollisionDispatch/btCollisionObject.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\narrowphasecollision\btdiscretecollisiondetectorinterface.h
+	"LinearMath/btTransform.h"
+	"LinearMath/btVector3.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btcollisionobjectwrapper.h
+	"LinearMath/btScalar.h"
+
+1327358386 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btbroadphaseproxy.h
+	"LinearMath/btScalar.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btAlignedAllocator.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btcollisioncreatefunc.h
+	"LinearMath/btAlignedObjectArray.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btoverlappingpaircache.h
+	"btBroadphaseInterface.h"
+	"btBroadphaseProxy.h"
+	"btOverlappingPairCallback.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btbroadphaseinterface.h
+	"btBroadphaseProxy.h"
+	"LinearMath/btVector3.h"
+
+1219803852 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btoverlappingpaircallback.h
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btboxshape.h
+	"btPolyhedralConvexShape.h"
+	"btCollisionMargin.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btMinMax.h"
+
+1348816490 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btpolyhedralconvexshape.h
+	"LinearMath/btMatrix3x3.h"
+	"btConvexInternalShape.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btconvexinternalshape.h
+	"btConvexShape.h"
+	"LinearMath/btAabbUtil2.h"
+
+1330491054 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btconvexshape.h
+	"btCollisionShape.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btMatrix3x3.h"
+	"btCollisionMargin.h"
+	"LinearMath/btAlignedAllocator.h"
+
+1347814886 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btcollisionshape.h
+	"LinearMath/btTransform.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btMatrix3x3.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1316110642 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btcollisionmargin.h
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btaabbutil2.h
+	"btTransform.h"
+	"btVector3.h"
+	"btMinMax.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btsphereshape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1347814886 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btcapsuleshape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1347814886 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btcylindershape.h
+	"btBoxShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btVector3.h"
+
+1347814886 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btconeshape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btstaticplaneshape.h
+	"btConcaveShape.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btconcaveshape.h
+	"btCollisionShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"btTriangleCallback.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\bttrianglecallback.h
+	"LinearMath/btVector3.h"
+
+1348816490 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btconvexhullshape.h
+	"btPolyhedralConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1347213544 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\bttrianglemesh.h
+	"btTriangleIndexVertexArray.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1330497656 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\bttriangleindexvertexarray.h
+	"btStridingMeshInterface.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btScalar.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btstridingmeshinterface.h
+	"LinearMath/btVector3.h"
+	"btTriangleCallback.h"
+	"btConcaveShape.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btconvextrianglemeshshape.h
+	"btPolyhedralConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btbvhtrianglemeshshape.h
+	"btTriangleMeshShape.h"
+	"btOptimizedBvh.h"
+	"LinearMath/btAlignedAllocator.h"
+	"btTriangleInfoMap.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\bttrianglemeshshape.h
+	"btConcaveShape.h"
+	"btStridingMeshInterface.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btoptimizedbvh.h
+	"BulletCollision/BroadphaseCollision/btQuantizedBvh.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btquantizedbvh.h
+	<stdio.h>
+	<stdlib.h>
+	"LinearMath/btVector3.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1347338218 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\bttriangleinfomap.h
+	"LinearMath/btHashMap.h"
+	"LinearMath/btSerializer.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\bthashmap.h
+	"btAlignedObjectArray.h"
+
+1348279570 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btserializer.h
+	"btScalar.h"
+	"btStackAlloc.h"
+	"btHashMap.h"
+	<memory.h>
+	<string.h>
+
+1235001124 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btstackalloc.h
+	"btScalar.h"
+	"btAlignedAllocator.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btscaledbvhtrianglemeshshape.h
+	"BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btcompoundshape.h
+	"btCollisionShape.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btMatrix3x3.h"
+	"btCollisionMargin.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\bttetrahedronshape.h
+	"btPolyhedralConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btemptyshape.h
+	"btConcaveShape.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btMatrix3x3.h"
+	"btCollisionMargin.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btmultisphereshape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btAabbUtil2.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btuniformscalingshape.h
+	"btConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btspherespherecollisionalgorithm.h
+	"btActivatingCollisionAlgorithm.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"BulletCollision/CollisionDispatch/btCollisionCreateFunc.h"
+	"btCollisionDispatcher.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btactivatingcollisionalgorithm.h
+	"BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btcollisionalgorithm.h
+	"LinearMath/btScalar.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1343755072 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btdefaultcollisionconfiguration.h
+	"btCollisionConfiguration.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btcollisionconfiguration.h
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btsimplebroadphase.h
+	"btOverlappingPairCache.h"
+
+1349382726 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btaxissweep3.h
+	"LinearMath/btVector3.h"
+	"btOverlappingPairCache.h"
+	"btBroadphaseInterface.h"
+	"btBroadphaseProxy.h"
+	"btOverlappingPairCallback.h"
+	"btDbvtBroadphase.h"
+	<stdio.h>
+
+1265916352 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btdbvtbroadphase.h
+	"BulletCollision/BroadphaseCollision/btDbvt.h"
+	"BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+	"LinearMath/btQuickprof.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btdbvt.h
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btAabbUtil2.h"
+	<emmintrin.h>
+	<memory.h>
+	<string.h>
+
+1314674914 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btquickprof.h
+	<stdio.h>
+	"btScalar.h"
+	"btAlignedAllocator.h"
+	<new>
+
+1243044956 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\broadphasecollision\btmultisapbroadphase.h
+	"btBroadphaseInterface.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btOverlappingPairCache.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btdefaultmotionstate.h
+	"btMotionState.h"
+
+1347211352 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btidebugdraw.h
+	"btVector3.h"
+	"btTransform.h"
+
+1347211352 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btgimpactshape.h
+	"BulletCollision/CollisionShapes/btCollisionShape.h"
+	"BulletCollision/CollisionShapes/btTriangleShape.h"
+	"BulletCollision/CollisionShapes/btStridingMeshInterface.h"
+	"BulletCollision/CollisionShapes/btCollisionMargin.h"
+	"BulletCollision/CollisionDispatch/btCollisionWorld.h"
+	"BulletCollision/CollisionShapes/btConcaveShape.h"
+	"BulletCollision/CollisionShapes/btTetrahedronShape.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btMatrix3x3.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btGImpactQuantizedBvh.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\bttriangleshape.h
+	"btConvexShape.h"
+	"btBoxShape.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btgimpactquantizedbvh.h
+	"btGImpactBvh.h"
+	"btQuantization.h"
+
+1286326784 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btgimpactbvh.h
+	"LinearMath/btAlignedObjectArray.h"
+	"btBoxCollision.h"
+	"btTriangleShapeEx.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btboxcollision.h
+	"LinearMath/btTransform.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\bttriangleshapeex.h
+	"BulletCollision/CollisionShapes/btCollisionShape.h"
+	"BulletCollision/CollisionShapes/btTriangleShape.h"
+	"btBoxCollision.h"
+	"btClipPolygon.h"
+	"btGeometryOperations.h"
+
+1281467894 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btclippolygon.h
+	"LinearMath/btTransform.h"
+	"LinearMath/btGeometryUtil.h"
+
+1235001124 d:\documents\astral\external\bullet-2.81-rev2613\src\linearmath\btgeometryutil.h
+	"btVector3.h"
+	"btAlignedObjectArray.h"
+
+1281467894 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btgeometryoperations.h
+	"btBoxCollision.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btquantization.h
+	"LinearMath/btTransform.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\gimpact\btgimpactcollisionalgorithm.h
+	"BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.h"
+	"BulletCollision/BroadphaseCollision/btDispatcher.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseInterface.h"
+	"BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"BulletCollision/CollisionDispatch/btCollisionCreateFunc.h"
+	"BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btGImpactShape.h"
+	"BulletCollision/CollisionShapes/btStaticPlaneShape.h"
+	"BulletCollision/CollisionShapes/btCompoundShape.h"
+	"BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.h"
+	"LinearMath/btIDebugDraw.h"
+	"BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btconvexconvexalgorithm.h
+	"btActivatingCollisionAlgorithm.h"
+	"BulletCollision/NarrowPhaseCollision/btGjkPairDetector.h"
+	"BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h"
+	"btCollisionCreateFunc.h"
+	"btCollisionDispatcher.h"
+	"LinearMath/btTransformUtil.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\narrowphasecollision\btgjkpairdetector.h
+	"btDiscreteCollisionDetectorInterface.h"
+	"BulletCollision/CollisionShapes/btCollisionMargin.h"
+	"btSimplexSolverInterface.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\narrowphasecollision\btsimplexsolverinterface.h
+	"LinearMath/btVector3.h"
+	"btVoronoiSimplexSolver.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\narrowphasecollision\btvoronoisimplexsolver.h
+	"btSimplexSolverInterface.h"
+
+1360030252 d:\documents\astral\external\ogrebullet\dynamics\include\ogrebulletdynamicsworld.h
+	"OgreBulletDynamicsPreRequisites.h"
+	"OgreBulletCollisionsWorld.h"
+	"Debug/OgreBulletCollisionsDebugDrawer.h"
+
+1360030252 d:\documents\astral\external\ogrebullet\dynamics\include\ogrebulletdynamicsprerequisites.h
+	"btBulletCollisionCommon.h"
+	"btBulletDynamicsCommon.h"
+	"Ogre.h"
+	"OgreBulletCollisions.h"
+
+1347576040 d:\documents\astral\external\bullet-2.81-rev2613\src\btbulletdynamicscommon.h
+	"btBulletCollisionCommon.h"
+	"BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
+	"BulletDynamics/Dynamics/btSimpleDynamicsWorld.h"
+	"BulletDynamics/Dynamics/btRigidBody.h"
+	"BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h"
+	"BulletDynamics/ConstraintSolver/btHingeConstraint.h"
+	"BulletDynamics/ConstraintSolver/btConeTwistConstraint.h"
+	"BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h"
+	"BulletDynamics/ConstraintSolver/btSliderConstraint.h"
+	"BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h"
+	"BulletDynamics/ConstraintSolver/btUniversalConstraint.h"
+	"BulletDynamics/ConstraintSolver/btHinge2Constraint.h"
+	"BulletDynamics/ConstraintSolver/btGearConstraint.h"
+	"BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h"
+	"BulletDynamics/Vehicle/btRaycastVehicle.h"
+
+1349471712 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\dynamics\btdiscretedynamicsworld.h
+	"btDynamicsWorld.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1348270646 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\dynamics\btdynamicsworld.h
+	"BulletCollision/CollisionDispatch/btCollisionWorld.h"
+	"BulletDynamics/ConstraintSolver/btContactSolverInfo.h"
+
+1348279570 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btcontactsolverinfo.h
+	"LinearMath/btScalar.h"
+
+1316112434 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\dynamics\btsimpledynamicsworld.h
+	"btDynamicsWorld.h"
+
+1348111974 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\dynamics\btrigidbody.h
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btTransform.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"BulletCollision/CollisionDispatch/btCollisionObject.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btpoint2pointconstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1346442386 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btjacobianentry.h
+	"LinearMath/btMatrix3x3.h"
+
+1349415434 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\bttypedconstraint.h
+	"LinearMath/btScalar.h"
+	"btSolverConstraint.h"
+	"BulletDynamics/Dynamics/btRigidBody.h"
+
+1347132076 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btsolverconstraint.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btMatrix3x3.h"
+	"btJacobianEntry.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btSolverBody.h"
+
+1347132076 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btsolverbody.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btMatrix3x3.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btTransformUtil.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\bthingeconstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1347132076 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconetwistconstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btgeneric6dofconstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btsliderconstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1347338218 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btgeneric6dofspringconstraint.h
+	"LinearMath/btVector3.h"
+	"btTypedConstraint.h"
+	"btGeneric6DofConstraint.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btuniversalconstraint.h
+	"LinearMath/btVector3.h"
+	"btTypedConstraint.h"
+	"btGeneric6DofConstraint.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\bthinge2constraint.h
+	"LinearMath/btVector3.h"
+	"btTypedConstraint.h"
+	"btGeneric6DofSpringConstraint.h"
+
+1347576040 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btgearconstraint.h
+	"BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+
+1347691938 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btsequentialimpulseconstraintsolver.h
+	"BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+	"BulletDynamics/ConstraintSolver/btContactSolverInfo.h"
+	"BulletDynamics/ConstraintSolver/btSolverBody.h"
+	"BulletDynamics/ConstraintSolver/btSolverConstraint.h"
+	"BulletCollision/NarrowPhaseCollision/btManifoldPoint.h"
+	"BulletDynamics/ConstraintSolver/btConstraintSolver.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\constraintsolver\btconstraintsolver.h
+	"LinearMath/btScalar.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\vehicle\btraycastvehicle.h
+	"BulletDynamics/Dynamics/btRigidBody.h"
+	"BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+	"btVehicleRaycaster.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btWheelInfo.h"
+	"BulletDynamics/Dynamics/btActionInterface.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\vehicle\btvehicleraycaster.h
+	"LinearMath/btVector3.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\vehicle\btwheelinfo.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+
+1283906296 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\dynamics\btactioninterface.h
+	"LinearMath/btScalar.h"
+	"btRigidBody.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\ogrebulletcollisions.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"Utils/OgreBulletConverter.h"
+	"Debug/OgreBulletCollisionsDebugLines.h"
+	"Debug/OgreBulletCollisionsDebugShape.h"
+	"Debug/OgreBulletCollisionsDebugDrawer.h"
+	"Debug/OgreBulletCollisionsDebugContact.h"
+	"OgreBulletCollisionsShape.h"
+	"Shapes/OgreBulletCollisionsBoxShape.h"
+	"Shapes/OgreBulletCollisionsConeShape.h"
+	"Shapes/OgreBulletCollisionsSphereShape.h"
+	"Shapes/OgreBulletCollisionsCylinderShape.h"
+	"Shapes/OgreBulletCollisionsTriangleShape.h"
+	"Shapes/OgreBulletCollisionsTerrainShape.h"
+	"Shapes/OgreBulletCollisionsCylinderShape.h"
+	"Shapes/OgreBulletCollisionsCapsuleShape.h"
+	"Shapes/OgreBulletCollisionsStaticPlaneShape.h"
+	"Shapes/OgreBulletCollisionsCompoundShape.h"
+	"Shapes/OgreBulletCollisionsMultiSphereShape.h"
+	"Shapes/OgreBulletCollisionsConvexHullShape.h"
+	"Shapes/OgreBulletCollisionsMinkowskiSumShape.h"
+	"Shapes/OgreBulletCollisionsTrimeshShape.h"
+	"Shapes/OgreBulletCollisionsGImpactShape.h"
+	"Utils/OgreBulletCollisionsMeshToShapeConverter.h"
+	"OgreBulletCollisionsObject.h"
+	"OgreBulletCollisionsObjectState.h"
+	"OgreBulletCollisionsWorld.h"
+	"OgreBulletCollisionsRay.h"
+	"OgreString.h"
+	"OgreFontManager.h"
+	"BulletCollision/CollisionShapes/btMinkowskiSumShape.h"
+	"BulletCollision/CollisionShapes/btTriangleShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\utils\ogrebulletconverter.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreVector3.h"
+	"OgreQuaternion.h"
+
+1362278098 d:\documents\astral\external\ogrebullet\collisions\include\debug\ogrebulletcollisionsdebuglines.h
+	"OgreBulletCollisionsPreRequisites.h"
+
+1362278098 d:\documents\astral\external\ogrebullet\collisions\include\debug\ogrebulletcollisionsdebugshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"Debug/OgreBulletCollisionsDebugLines.h"
+
+1362278098 d:\documents\astral\external\ogrebullet\collisions\include\debug\ogrebulletcollisionsdebugdrawer.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"Debug/OgreBulletCollisionsDebugLines.h"
+
+1362278098 d:\documents\astral\external\ogrebullet\collisions\include\debug\ogrebulletcollisionsdebugcontact.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"Debug/OgreBulletCollisionsDebugLines.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\ogrebulletcollisionsshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsboxshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsconeshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionssphereshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionscylindershape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionstriangleshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsterrainshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+	"Debug/OgreBulletCollisionsDebugLines.h"
+	"BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h"
+	"BulletCollision/CollisionShapes/btTriangleCallback.h"
+
+1347230902 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btheightfieldterrainshape.h
+	"btConcaveShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionscapsuleshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsstaticplaneshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1362278098 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionscompoundshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsmultisphereshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1362178233 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsconvexhullshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsminkowskisumshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1362178233 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionstrimeshshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\shapes\ogrebulletcollisionsgimpactshape.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"BulletCollision/Gimpact/btGImpactShape.h"
+	"BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h"
+	"OgreBulletCollisionsShape.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\utils\ogrebulletcollisionsmeshtoshapeconverter.h
+	"OgreBulletCollisionsPreRequisites.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\ogrebulletcollisionsobject.h
+	"OgreBulletCollisionsPreRequisites.h"
+	"OgreBulletCollisionsWorld.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\ogrebulletcollisionsobjectstate.h
+	"OgreBulletCollisionsPreRequisites.h"
+
+1360030254 d:\documents\astral\external\ogrebullet\collisions\include\ogrebulletcollisionsray.h
+	"OgreBulletCollisionsPreRequisites.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btminkowskisumshape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1376602612 source:d:\documents\astral\src\game.cpp
+	"Game.h"
+	"ChunkManager.h"
+	"Player.h"
+	"windows.h"
+
+1375468405 d:\documents\astral\external\ogre_bullet_util\debugdrawer.h
+	<OgreSceneManager.h>
+
+1321557862 d:\documents\astral\external\ogre_bullet_util\debugdraw.hpp
+	<btBulletDynamicsCommon.h>
+	<OGRE/Ogre.h>
+	"DynamicLineDrawer.hpp"
+
+1295286382 d:\documents\astral\external\ogre_bullet_util\dynamiclinedrawer.hpp
+	<OGRE/Ogre.h>
+
+1375466617 source:d:\documents\astral\external\ogre_bullet_util\debugdraw.cpp
+	"DebugDraw.hpp"
+
+1375468610 source:d:\documents\astral\external\ogre_bullet_util\dynamiclinedrawer.cpp
+	"DynamicLineDrawer.hpp"
+
+1375495168 source:d:\documents\astral\src\ogremotionstate.cpp
+	"OgreMotionState.h"
+
+1375495155 d:\documents\astral\include\ogremotionstate.h
+	<OgreSceneNode.h>
+	"LinearMath/btMotionState.h"
+
+1375987913 d:\documents\astral\include\player.h
+	"Game.h"
+	"OgreMotionState.h"
+
+1376441955 source:d:\documents\astral\src\player.cpp
+	"Player.h"
+
+1279588176 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisiondispatch\btghostobject.h
+	"btCollisionObject.h"
+	"BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h"
+	"LinearMath/btAlignedAllocator.h"
+	"BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+	"btCollisionWorld.h"
+
+1347897828 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\character\btkinematiccharactercontroller.h
+	"LinearMath/btVector3.h"
+	"btCharacterControllerInterface.h"
+	"BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
+
+1301678094 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletdynamics\character\btcharactercontrollerinterface.h
+	"LinearMath/btVector3.h"
+	"BulletDynamics/Dynamics/btActionInterface.h"
+
+1339030592 d:\documents\astral\external\bullet-2.81-rev2613\src\bulletcollision\collisionshapes\btshapehull.h
+	"LinearMath/btAlignedObjectArray.h"
+	"BulletCollision/CollisionShapes/btConvexShape.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguisystem.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUISingleton.h"
+	"CEGUIRenderer.h"
+	"CEGUIMouseCursor.h"
+	"CEGUIInputEvent.h"
+	"CEGUIResourceProvider.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguibase.h
+	<cassert>
+	"CEGUIConfig.h"
+	"CEGUIVersion.h"
+	<string>
+	"CEGUIForwardRefs.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiconfig.h
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiversion.h
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiforwardrefs.h
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguistring.h
+	"CEGUIBase.h"
+	<string.h>
+	<stdexcept>
+	<cstddef>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguisingleton.h
+	"CEGUIBase.h"
+	<cassert>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguirenderer.h
+	"CEGUIBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguimousecursor.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUISingleton.h"
+	"CEGUIVector.h"
+	"CEGUIRect.h"
+	"CEGUIEventSet.h"
+	"CEGUIInputEvent.h"
+	"CEGUIUDim.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguivector.h
+	"CEGUIBase.h"
+	"CEGUISize.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguisize.h
+	"CEGUIBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguirect.h
+	"CEGUIBase.h"
+	"CEGUIVector.h"
+	"CEGUISize.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguieventset.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUIEvent.h"
+	"CEGUIIteratorBase.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguievent.h
+	"CEGUIString.h"
+	"CEGUIBoundSlot.h"
+	"CEGUISubscriberSlot.h"
+	"CEGUIRefCounted.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiboundslot.h
+	"CEGUIBase.h"
+	"CEGUISubscriberSlot.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguisubscriberslot.h
+	"CEGUIBase.h"
+	"CEGUIFreeFunctionSlot.h"
+	"CEGUIFunctorCopySlot.h"
+	"CEGUIFunctorReferenceSlot.h"
+	"CEGUIFunctorPointerSlot.h"
+	"CEGUIMemberFunctionSlot.h"
+	"CEGUIFunctorReferenceBinder.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguifreefunctionslot.h
+	"CEGUISlotFunctorBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguislotfunctorbase.h
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguifunctorcopyslot.h
+	"CEGUISlotFunctorBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguifunctorreferenceslot.h
+	"CEGUISlotFunctorBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguifunctorpointerslot.h
+	"CEGUISlotFunctorBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguimemberfunctionslot.h
+	"CEGUISlotFunctorBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguifunctorreferencebinder.h
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguirefcounted.h
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiiteratorbase.h
+	"CEGUIBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiinputevent.h
+	"CEGUIBase.h"
+	"CEGUIEventArgs.h"
+	"CEGUIString.h"
+	"CEGUIVector.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguieventargs.h
+	"CEGUIBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiudim.h
+	"CEGUIRect.h"
+	"CEGUIVector.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiresourceprovider.h
+	"CEGUIBase.h"
+	"CEGUIDataContainer.h"
+	"CEGUIString.h"
+	<vector>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguidatacontainer.h
+	"CEGUIBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguischememanager.h
+	"CEGUIBase.h"
+	"CEGUISingleton.h"
+	"CEGUINamedXMLResourceManager.h"
+	"CEGUIScheme.h"
+	"CEGUIScheme_xmlHandler.h"
+	"CEGUIIteratorBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguinamedxmlresourcemanager.h
+	"CEGUIEventSet.h"
+	"CEGUIString.h"
+	"CEGUIExceptions.h"
+	"CEGUILogger.h"
+	"CEGUIInputEvent.h"
+	"CEGUISystem.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiexceptions.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	<exception>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguilogger.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	<fstream>
+	<sstream>
+	<vector>
+	<utility>
+	"CEGUISingleton.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguischeme.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUISchemeManager.h"
+	<vector>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguischeme_xmlhandler.h
+	"CEGUIXMLHandler.h"
+	"CEGUIString.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguixmlhandler.h
+	"CEGUIBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiwindowmanager.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUISingleton.h"
+	"CEGUILogger.h"
+	"CEGUIIteratorBase.h"
+	"CEGUIEventSet.h"
+	<map>
+	<vector>
+
+1358039544 d:\documents\astral\external\cegui-0.7.9\cegui\include\renderermodules\ogre\ceguiogrerenderer.h
+	"../../CEGUIRenderer.h"
+	"../../CEGUISize.h"
+	"../../CEGUIVector.h"
+	<vector>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiimageset.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUIRect.h"
+	"CEGUIColourRect.h"
+	"CEGUIImagesetManager.h"
+	"CEGUIImage.h"
+	"CEGUIIteratorBase.h"
+	"CEGUIXMLSerializer.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguicolourrect.h
+	"CEGUIBase.h"
+	"CEGUIcolour.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguicolour.h
+	"CEGUIBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiimagesetmanager.h
+	"CEGUIBase.h"
+	"CEGUISingleton.h"
+	"CEGUINamedXMLResourceManager.h"
+	"CEGUIImageset.h"
+	"CEGUIImageset_xmlHandler.h"
+	"CEGUIIteratorBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiimageset_xmlhandler.h
+	"CEGUIXMLHandler.h"
+	"CEGUIString.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiimage.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUIRect.h"
+	"CEGUIColourRect.h"
+	"CEGUIVector.h"
+	"CEGUISize.h"
+	"CEGUIRenderer.h"
+	"CEGUIXMLSerializer.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguixmlserializer.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	<vector>
+	<iostream>
+	<CEGUI/XMLSerializer.h>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguifont.h
+	"CEGUIBase.h"
+	"CEGUIPropertySet.h"
+	"CEGUIString.h"
+	"CEGUIXMLSerializer.h"
+	"CEGUIFontGlyph.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguipropertyset.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUIIteratorBase.h"
+	"CEGUIProperty.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiproperty.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUIXMLSerializer.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguifontglyph.h
+	"CEGUIImage.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiwidgetmodule.h
+	"CEGUIExceptions.h"
+	"CEGUIWindowFactoryManager.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiwindowfactorymanager.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUISingleton.h"
+	"CEGUILogger.h"
+	"CEGUIIteratorBase.h"
+	"CEGUIWindowFactory.h"
+	"CEGUIExceptions.h"
+	<map>
+	<vector>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiwindowfactory.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUIWindow.h"
+
+1358051754 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiwindow.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	"CEGUIVector.h"
+	"CEGUIRect.h"
+	"CEGUISize.h"
+	"CEGUIEventSet.h"
+	"CEGUIPropertySet.h"
+	"CEGUISystem.h"
+	"CEGUIInputEvent.h"
+	"CEGUIWindowProperties.h"
+	"CEGUIUDim.h"
+	"CEGUIWindowRenderer.h"
+	"CEGUITextUtils.h"
+	"CEGUIBasicRenderedStringParser.h"
+	"CEGUIDefaultRenderedStringParser.h"
+	<vector>
+	<set>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiwindowproperties.h
+	"CEGUIProperty.h"
+	"CEGUIXMLSerializer.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiwindowrenderer.h
+	"CEGUIWindow.h"
+	"CEGUIProperty.h"
+	<vector>
+	<utility>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguitextutils.h
+	"CEGUIBase.h"
+	"CEGUIString.h"
+	<vector>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguibasicrenderedstringparser.h
+	"CEGUIRenderedStringParser.h"
+	"CEGUIRect.h"
+	"CEGUIColourRect.h"
+	"CEGUIString.h"
+	"falagard/CEGUIFalEnums.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguirenderedstringparser.h
+	"CEGUIRenderedString.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguirenderedstring.h
+	"CEGUISize.h"
+	<vector>
+	<utility>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalenums.h
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguidefaultrenderedstringparser.h
+	"CEGUIRenderedStringParser.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalwidgetlookmanager.h
+	"../CEGUISingleton.h"
+	"../CEGUIString.h"
+	"../CEGUIExceptions.h"
+	"CEGUIFalWidgetLookFeel.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalwidgetlookfeel.h
+	"CEGUIFalStateImagery.h"
+	"CEGUIFalWidgetComponent.h"
+	"CEGUIFalImagerySection.h"
+	"CEGUIFalPropertyInitialiser.h"
+	"CEGUIFalPropertyDefinition.h"
+	"CEGUIFalPropertyLinkDefinition.h"
+	"CEGUIFalNamedArea.h"
+	<map>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalstateimagery.h
+	"CEGUIFalLayerSpecification.h"
+	"../CEGUIWindow.h"
+	<set>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifallayerspecification.h
+	"CEGUIFalSectionSpecification.h"
+	"../CEGUIWindow.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalsectionspecification.h
+	"../CEGUIWindow.h"
+	"../CEGUIColourRect.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalwidgetcomponent.h
+	"CEGUIFalDimensions.h"
+	"CEGUIFalPropertyInitialiser.h"
+	"../CEGUIWindow.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifaldimensions.h
+	"CEGUIFalEnums.h"
+	"../CEGUIString.h"
+	"../CEGUIUDim.h"
+	"../CEGUIXMLSerializer.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalpropertyinitialiser.h
+	"../CEGUIPropertySet.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalimagerysection.h
+	"CEGUIFalImageryComponent.h"
+	"CEGUIFalTextComponent.h"
+	"CEGUIFalFrameComponent.h"
+	"../CEGUIXMLSerializer.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalimagerycomponent.h
+	"CEGUIFalComponentBase.h"
+	"../CEGUIXMLSerializer.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalcomponentbase.h
+	"CEGUIFalDimensions.h"
+	"../CEGUIWindow.h"
+	"../CEGUIColourRect.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifaltextcomponent.h
+	"CEGUIFalComponentBase.h"
+	"../CEGUIRenderedString.h"
+	"../CEGUIRefCounted.h"
+	"../CEGUIFormattedRenderedString.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\ceguiformattedrenderedstring.h
+	"CEGUIRenderedString.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalframecomponent.h
+	"CEGUIFalComponentBase.h"
+	"../CEGUIXMLSerializer.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalpropertydefinition.h
+	"CEGUIFalPropertyDefinitionBase.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalpropertydefinitionbase.h
+	"../CEGUIProperty.h"
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalpropertylinkdefinition.h
+	"CEGUIFalPropertyDefinitionBase.h"
+	<vector>
+
+1358039244 d:\documents\astral\external\cegui-0.7.9\cegui\include\falagard\ceguifalnamedarea.h
+	"CEGUIFalDimensions.h"
+
+1376602182 d:\documents\astral\include\utils\ogrebulletconverter.h
 

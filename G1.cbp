@@ -23,6 +23,8 @@
 					<Add library="libboost_date_time-mgw47-mt-d-1_51" />
 					<Add library="libboost_system-mgw47-mt-d-1_51" />
 					<Add library="libboost_thread-mgw47-mt-d-1_51" />
+					<Add library="CEGUIBase_d" />
+					<Add library="CEGUIOgreRenderer_d" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -43,9 +45,13 @@
 					<Add library="libboost_date_time-mgw47-mt-1_51" />
 					<Add library="libboost_system-mgw47-mt-1_51" />
 					<Add library="libboost_thread-mgw47-mt-1_51" />
+					<Add library="CEGUIBase" />
+					<Add library="CEGUIOgreRenderer" />
 				</Linker>
 			</Target>
 			<Environment>
+				<Variable name="BULLET_HOME" value="D:\Documents\Astral\external\bullet-2.81-rev2613" />
+				<Variable name="OGREBULLET_HOME" value="D:\Documents\Astral\external\ogrebullet" />
 				<Variable name="OGRE_HOME" value="D:\Documents\Astral\external\OgreSDK_MinGW_v1-8-1" />
 			</Environment>
 		</Build>
@@ -63,27 +69,42 @@
 			<Add directory="$(OGRE_HOME)/boost" />
 			<Add directory="include" />
 			<Add directory="D:/Documents/Astral/" />
+			<Add directory="$(BULLET_HOME)/src" />
+			<Add directory="$(OGREBULLET_HOME)/Collisions/include" />
+			<Add directory="$(OGREBULLET_HOME)/Dynamics/include" />
+			<Add directory="external/Ogre_Bullet_Util" />
+			<Add directory="external/CEGUI-0.7.9/cegui/include" />
 		</Compiler>
 		<Linker>
 			<Add option="-Wl,--enable-auto-image-base" />
 			<Add option="-Wl,--add-stdcall-alias" />
 			<Add option="-Wl,--enable-auto-import" />
+			<Add library="libBulletDynamics" />
+			<Add library="libBulletCollision" />
+			<Add library="libLinearMath" />
 			<Add directory="$(OGRE_HOME)/bin/$(TARGET_NAME)" />
 			<Add directory="$(OGRE_HOME)/boost/lib" />
+			<Add directory="$(BULLET_HOME)/lib" />
+			<Add directory="external/CEGUI-0.7.9/bin" />
 		</Linker>
-		<Unit filename="BaseApplication.cpp" />
-		<Unit filename="BaseApplication.h" />
-		<Unit filename="Game.cpp" />
-		<Unit filename="Game.h" />
+		<Unit filename="external/Ogre_Bullet_Util/DebugDraw.cpp" />
+		<Unit filename="external/Ogre_Bullet_Util/DynamicLineDrawer.cpp" />
 		<Unit filename="external/simplexnoise/simplexnoise.cpp" />
 		<Unit filename="external/simplexnoise/simplexnoise.h" />
-		<Unit filename="include/Chunk.h" />
+		<Unit filename="include/BaseApplication.h" />
 		<Unit filename="include/ChunkManager.h" />
 		<Unit filename="include/Configuration.h" />
+		<Unit filename="include/Game.h" />
 		<Unit filename="include/Landscape.h" />
-		<Unit filename="src/Chunk.cpp" />
+		<Unit filename="include/OgreMotionState.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Utils/OgreBulletConverter.h" />
+		<Unit filename="src/BaseApplication.cpp" />
 		<Unit filename="src/ChunkManager.cpp" />
+		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/Landscape.cpp" />
+		<Unit filename="src/OgreMotionState.cpp" />
+		<Unit filename="src/Player.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

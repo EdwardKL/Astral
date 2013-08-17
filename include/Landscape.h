@@ -10,7 +10,7 @@ class Landscape
         Landscape();
         virtual ~Landscape();
         float getAltitude(int worldX, int worldZ);
-        int getAdjustedAltitude(int worldX, int worldZ);
+        float getAdjustedAltitude(int worldX, int worldZ);
     protected:
     private:
 };

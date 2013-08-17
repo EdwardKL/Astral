@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="CEGUI">
+		<Project filename="BaseSystem/CEGUIBase.cbp" active="1">
+		</Project>
+		<Project filename="ScriptingModules/LuaScriptModule/CEGUILuaScriptModule.cbp">
+			<Depends filename="BaseSystem/CEGUIBase.cbp" />
+			<Depends filename="ScriptingModules/LuaScriptModule/support/tolua++/tolua++.cbp" />
+		</Project>
+		<Project filename="ScriptingModules/LuaScriptModule/support/tolua++/tolua++.cbp">
+		</Project>
+		<Project filename="ScriptingModules/LuaScriptModule/support/tolua++bin/tolua++cegui.cbp">
+			<Depends filename="ScriptingModules/LuaScriptModule/support/tolua++/tolua++.cbp" />
+		</Project>
+		<Project filename="WindowRendererSets/Falagard/CEGUIFalagardWRBase.cbp">
+			<Depends filename="BaseSystem/CEGUIBase.cbp" />
+		</Project>
+		<Project filename="ImageCodecModules/STBImageCodec/CEGUISTBImageCodec.cbp">
+			<Depends filename="BaseSystem/CEGUIBase.cbp" />
+		</Project>
+		<Project filename="XMLParserModules/expatParser/CEGUIExpatParser.cbp">
+			<Depends filename="BaseSystem/CEGUIBase.cbp" />
+		</Project>
+		<Project filename="RendererModules/OpenGL/CEGUIOpenGLRenderer.cbp">
+			<Depends filename="BaseSystem/CEGUIBase.cbp" />
+		</Project>
+		<Project filename="RendererModules/Ogre/CEGUIOgreRenderer.cbp">
+			<Depends filename="BaseSystem/CEGUIBase.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

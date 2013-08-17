@@ -1,0 +1,2 @@
+D:\Programs\MinGW\bin\ar.exe cr libBulletWorldImporter.a  CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.obj CMakeFiles/BulletWorldImporter.dir/btWorldImporter.obj
+D:\Programs\MinGW\bin\ranlib.exe libBulletWorldImporter.a

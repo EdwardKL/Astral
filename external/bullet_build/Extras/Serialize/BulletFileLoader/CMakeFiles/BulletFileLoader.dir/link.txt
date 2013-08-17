@@ -1,0 +1,2 @@
+D:\Programs\MinGW\bin\ar.exe cr libBulletFileLoader.a  CMakeFiles/BulletFileLoader.dir/bChunk.obj CMakeFiles/BulletFileLoader.dir/bDNA.obj CMakeFiles/BulletFileLoader.dir/bFile.obj CMakeFiles/BulletFileLoader.dir/btBulletFile.obj
+D:\Programs\MinGW\bin\ranlib.exe libBulletFileLoader.a

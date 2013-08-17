@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CEGUIOpenGLRenderer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../../bin/CEGUIOpenGLRenderer_d.dll" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="0" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DOPENGL_GUIRENDERER_EXPORTS" />
+					<Add option="-DGLEW_STATIC" />
+					<Add option="-D_DEBUG" />
+					<Add directory="../../../../cegui/include" />
+					<Add directory="../../../../dependencies/include" />
+					<Add directory="../../../../cegui/include/RendererModules/OpenGL/" />
+					<Add directory="../../../../cegui/src/RendererModules/OpenGL/GLEW" />
+					<Add directory="../../../../" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../bin" />
+					<Add directory="../../../../dependencies/lib/dynamic" />
+					<Add library="CEGUIBase_d" />
+					<Add library="GLU32" />
+					<Add library="OpenGL32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../../bin/CEGUIOpenGLRenderer.dll" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="0" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-O3" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DOPENGL_GUIRENDERER_EXPORTS" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="../../../../cegui/include" />
+					<Add directory="../../../../dependencies/include" />
+					<Add directory="../../../../cegui/include/RendererModules/OpenGL/" />
+					<Add directory="../../../../cegui/src/RendererModules/OpenGL/GLEW" />
+					<Add directory="../../../../" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../../../../bin" />
+					<Add directory="../../../../dependencies/lib/dynamic" />
+					<Add library="CEGUIBase" />
+					<Add library="GLU32" />
+					<Add library="OpenGL32" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseWithSymbols">
+				<Option output="../../../../bin/ReleaseWithSymbols/CEGUIOpenGLRenderer.dll" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/ReleaseWithSymbols" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="0" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DOPENGL_GUIRENDERER_EXPORTS" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="../../../../cegui/include" />
+					<Add directory="../../../../dependencies/include" />
+					<Add directory="../../../../cegui/include/RendererModules/OpenGL/" />
+					<Add directory="../../../../cegui/src/RendererModules/OpenGL/GLEW" />
+					<Add directory="../../../../" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../bin/ReleaseWithSymbols" />
+					<Add directory="../../../../dependencies/lib/dynamic" />
+					<Add library="CEGUIBase" />
+					<Add library="GLU32" />
+					<Add library="OpenGL32" />
+				</Linker>
+			</Target>
+			<Target title="Debug_Static">
+				<Option output="../../../../lib/libCEGUIOpenGLRenderer_Static_d.a" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug_Static" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DOPENGL_GUIRENDERER_EXPORTS" />
+					<Add option="-DGLEW_STATIC" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DCEGUI_STATIC" />
+					<Add option="-DTOLUA_STATIC" />
+					<Add directory="../../../../cegui/include" />
+					<Add directory="../../../../dependencies/include" />
+					<Add directory="../../../../cegui/include/RendererModules/OpenGL/" />
+					<Add directory="../../../../cegui/src/RendererModules/OpenGL/GLEW" />
+					<Add directory="../../../../" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../bin" />
+					<Add directory="../../../../dependencies/lib/static" />
+					<Add library="CEGUIBase_Static_d" />
+				</Linker>
+			</Target>
+			<Target title="Release_Static">
+				<Option output="../../../../lib/libCEGUIOpenGLRenderer_Static.a" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release_Static" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-O3" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DOPENGL_GUIRENDERER_EXPORTS" />
+					<Add option="-DGLEW_STATIC" />
+					<Add option="-DCEGUI_STATIC" />
+					<Add option="-DTOLUA_STATIC" />
+					<Add directory="../../../../cegui/include" />
+					<Add directory="../../../../dependencies/include" />
+					<Add directory="../../../../cegui/include/RendererModules/OpenGL/" />
+					<Add directory="../../../../cegui/src/RendererModules/OpenGL/GLEW" />
+					<Add directory="../../../../" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../../../../bin" />
+					<Add directory="../../../../dependencies/lib/static" />
+					<Add library="CEGUIBase_Static" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLFBOTextureTarget.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLGeometryBuffer.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLRenderer.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLRenderTarget.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLTexture.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLTextureTarget.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLViewportTarget.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/CEGUIOpenGLWGLPBTextureTarget.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGL.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLFBOTextureTarget.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLGeometryBuffer.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLRenderer.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLRenderTarget.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLTexture.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLTextureTarget.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLViewportTarget.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/include/RendererModules/OpenGL/CEGUIOpenGLWGLPBTextureTarget.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/GLEW/src/glew.c">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/GLEW/GL/glew.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/GLEW/GL/glxew.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Unit filename="../../../../cegui/src/RendererModules/OpenGL/GLEW/GL/wglew.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+			<Option target="ReleaseWithSymbols" />
+			<Option target="Debug_Static" />
+			<Option target="Release_Static" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
